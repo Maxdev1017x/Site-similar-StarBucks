@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif;
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+html,body {
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+header {
+    height: 200px;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 50%;
+}
+
+.menu {
+    padding-top: 30px;
+    width: 50%;
+    text-align: right;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-weight: bolt;
+    margin-right: 15px;
+}
+
+section .sobre {
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras {
+    position: absolute;
+    bottom: -450px;
+    right: -500px;
+    width: 1200px;
+    height: 1000px;
+    border-radius: 50%;
+    background-color:#017143;
+}
+
+.social-links {
+    position: absolute;
+    left: 640px;
+    top: 200px;
+}
+
+.social-links {
+    display: block;
+    width: 30px;
+    margin:5px 0;
+}
+
+.texto-sobre {
+    margin-top: 100px;
+}
+
+.texto-sobre h1 {
+    font-size: 75px;
+
+}
+
+.texto-sobre {
+    margin: 20px 0;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 800px;
+}
+
+.texto-sobre button {
+    background-color: #017143;
+    color: white;
+    border: none;
+    border-radius: 35px;
+    width: 110px;
+    height: 40px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(16, 231, 184);
+    color:black;
+}
+
+footer {
+    display: flex;
+    color: black;
+    padding: 55px;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
